@@ -1,1 +1,0 @@
-cmd_drivers/rpmsg/rpmsg_core.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/rpmsg/rpmsg_core.ko drivers/rpmsg/rpmsg_core.o drivers/rpmsg/rpmsg_core.mod.o ;  true

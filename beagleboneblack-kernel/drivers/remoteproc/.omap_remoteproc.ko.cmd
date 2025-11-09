@@ -1,1 +1,0 @@
-cmd_drivers/remoteproc/omap_remoteproc.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/remoteproc/omap_remoteproc.ko drivers/remoteproc/omap_remoteproc.o drivers/remoteproc/omap_remoteproc.mod.o ;  true

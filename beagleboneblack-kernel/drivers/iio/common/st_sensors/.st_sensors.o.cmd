@@ -1,1 +1,0 @@
-cmd_drivers/iio/common/st_sensors/st_sensors.o := arm-linux-gnueabihf-ld  -EL    -r -o drivers/iio/common/st_sensors/st_sensors.o drivers/iio/common/st_sensors/st_sensors_core.o drivers/iio/common/st_sensors/st_sensors_buffer.o drivers/iio/common/st_sensors/st_sensors_trigger.o 

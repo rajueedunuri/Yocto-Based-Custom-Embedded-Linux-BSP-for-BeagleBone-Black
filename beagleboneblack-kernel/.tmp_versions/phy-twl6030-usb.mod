@@ -1,3 +1,0 @@
-drivers/usb/phy/phy-twl6030-usb.ko
-drivers/usb/phy/phy-twl6030-usb.o
-

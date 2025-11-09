@@ -1,1 +1,0 @@
-cmd_arch/arm/crypto/chacha20-neon.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o arch/arm/crypto/chacha20-neon.ko arch/arm/crypto/chacha20-neon.o arch/arm/crypto/chacha20-neon.mod.o ;  true

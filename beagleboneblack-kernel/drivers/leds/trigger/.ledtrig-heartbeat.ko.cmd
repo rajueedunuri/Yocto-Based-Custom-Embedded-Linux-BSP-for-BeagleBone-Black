@@ -1,1 +1,0 @@
-cmd_drivers/leds/trigger/ledtrig-heartbeat.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/leds/trigger/ledtrig-heartbeat.ko drivers/leds/trigger/ledtrig-heartbeat.o drivers/leds/trigger/ledtrig-heartbeat.mod.o ;  true

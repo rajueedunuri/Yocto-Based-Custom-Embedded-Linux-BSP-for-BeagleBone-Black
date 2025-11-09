@@ -1,1 +1,0 @@
-cmd_drivers/cpufreq/cpufreq-dt.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/cpufreq/cpufreq-dt.ko drivers/cpufreq/cpufreq-dt.o drivers/cpufreq/cpufreq-dt.mod.o ;  true

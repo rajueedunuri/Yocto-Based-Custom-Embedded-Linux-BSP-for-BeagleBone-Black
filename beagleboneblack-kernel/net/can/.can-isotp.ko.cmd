@@ -1,1 +1,0 @@
-cmd_net/can/can-isotp.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/can/can-isotp.ko net/can/can-isotp.o net/can/can-isotp.mod.o ;  true

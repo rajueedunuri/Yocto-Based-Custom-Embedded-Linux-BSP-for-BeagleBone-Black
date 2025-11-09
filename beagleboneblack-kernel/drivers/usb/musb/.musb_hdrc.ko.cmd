@@ -1,1 +1,0 @@
-cmd_drivers/usb/musb/musb_hdrc.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/musb/musb_hdrc.ko drivers/usb/musb/musb_hdrc.o drivers/usb/musb/musb_hdrc.mod.o ;  true

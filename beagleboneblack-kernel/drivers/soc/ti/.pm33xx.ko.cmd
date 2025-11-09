@@ -1,1 +1,0 @@
-cmd_drivers/soc/ti/pm33xx.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/soc/ti/pm33xx.ko drivers/soc/ti/pm33xx.o drivers/soc/ti/pm33xx.mod.o ;  true

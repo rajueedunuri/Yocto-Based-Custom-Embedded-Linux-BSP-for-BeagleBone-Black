@@ -1,1 +1,0 @@
-cmd_drivers/iio/adc/cpcap-adc.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/iio/adc/cpcap-adc.ko drivers/iio/adc/cpcap-adc.o drivers/iio/adc/cpcap-adc.mod.o ;  true

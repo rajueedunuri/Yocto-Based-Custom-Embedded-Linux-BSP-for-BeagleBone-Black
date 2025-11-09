@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/keymaps/rc-cinergy-1400.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-cinergy-1400.ko drivers/media/rc/keymaps/rc-cinergy-1400.o drivers/media/rc/keymaps/rc-cinergy-1400.mod.o ;  true

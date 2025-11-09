@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/omapdrm/displays/panel-tpo-td028ttec1.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/gpu/drm/omapdrm/displays/panel-tpo-td028ttec1.ko drivers/gpu/drm/omapdrm/displays/panel-tpo-td028ttec1.o drivers/gpu/drm/omapdrm/displays/panel-tpo-td028ttec1.mod.o ;  true

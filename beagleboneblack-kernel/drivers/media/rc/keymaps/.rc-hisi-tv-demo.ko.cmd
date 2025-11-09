@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/keymaps/rc-hisi-tv-demo.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-hisi-tv-demo.ko drivers/media/rc/keymaps/rc-hisi-tv-demo.o drivers/media/rc/keymaps/rc-hisi-tv-demo.mod.o ;  true

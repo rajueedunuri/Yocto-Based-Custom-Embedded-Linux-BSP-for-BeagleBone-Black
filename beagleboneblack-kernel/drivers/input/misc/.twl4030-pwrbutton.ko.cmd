@@ -1,1 +1,0 @@
-cmd_drivers/input/misc/twl4030-pwrbutton.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/misc/twl4030-pwrbutton.ko drivers/input/misc/twl4030-pwrbutton.o drivers/input/misc/twl4030-pwrbutton.mod.o ;  true

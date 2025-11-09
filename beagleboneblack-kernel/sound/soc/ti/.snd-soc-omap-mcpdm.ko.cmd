@@ -1,1 +1,0 @@
-cmd_sound/soc/ti/snd-soc-omap-mcpdm.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/soc/ti/snd-soc-omap-mcpdm.ko sound/soc/ti/snd-soc-omap-mcpdm.o sound/soc/ti/snd-soc-omap-mcpdm.mod.o ;  true

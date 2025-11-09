@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/i2c/tda998x.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/gpu/drm/i2c/tda998x.ko drivers/gpu/drm/i2c/tda998x.o drivers/gpu/drm/i2c/tda998x.mod.o ;  true

@@ -1,3 +1,0 @@
-kernel/drivers/hsi/controllers/omap_ssi.ko
-kernel/drivers/hsi/clients/ssi_protocol.ko
-kernel/drivers/hsi/hsi.ko

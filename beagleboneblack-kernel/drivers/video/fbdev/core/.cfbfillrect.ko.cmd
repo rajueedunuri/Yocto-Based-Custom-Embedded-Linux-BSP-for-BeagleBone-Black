@@ -1,1 +1,0 @@
-cmd_drivers/video/fbdev/core/cfbfillrect.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/video/fbdev/core/cfbfillrect.ko drivers/video/fbdev/core/cfbfillrect.o drivers/video/fbdev/core/cfbfillrect.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/video/fbdev/core/cfbcopyarea.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/video/fbdev/core/cfbcopyarea.ko drivers/video/fbdev/core/cfbcopyarea.o drivers/video/fbdev/core/cfbcopyarea.mod.o ;  true

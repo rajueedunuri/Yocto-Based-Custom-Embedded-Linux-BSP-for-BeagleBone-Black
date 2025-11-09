@@ -1,1 +1,0 @@
-cmd_drivers/leds/leds-cpcap.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/leds/leds-cpcap.ko drivers/leds/leds-cpcap.o drivers/leds/leds-cpcap.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/video/fbdev/core/cfbimgblt.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/video/fbdev/core/cfbimgblt.ko drivers/video/fbdev/core/cfbimgblt.o drivers/video/fbdev/core/cfbimgblt.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_crypto/crypto_engine.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o crypto/crypto_engine.ko crypto/crypto_engine.o crypto/crypto_engine.mod.o ;  true

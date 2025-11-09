@@ -1,1 +1,0 @@
-cmd_drivers/iio/accel/st_accel.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/iio/accel/st_accel.ko drivers/iio/accel/st_accel.o drivers/iio/accel/st_accel.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/keymaps/rc-flyvideo.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-flyvideo.ko drivers/media/rc/keymaps/rc-flyvideo.o drivers/media/rc/keymaps/rc-flyvideo.mod.o ;  true

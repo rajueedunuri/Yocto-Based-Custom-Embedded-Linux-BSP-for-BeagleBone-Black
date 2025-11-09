@@ -1,1 +1,0 @@
-cmd_drivers/pwm/pwm-tiehrpwm.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/pwm/pwm-tiehrpwm.ko drivers/pwm/pwm-tiehrpwm.o drivers/pwm/pwm-tiehrpwm.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/omapdrm/displays/connector-analog-tv.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/gpu/drm/omapdrm/displays/connector-analog-tv.ko drivers/gpu/drm/omapdrm/displays/connector-analog-tv.o drivers/gpu/drm/omapdrm/displays/connector-analog-tv.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/input/misc/pwm-vibra.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/misc/pwm-vibra.ko drivers/input/misc/pwm-vibra.o drivers/input/misc/pwm-vibra.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/usb/core/usbcore.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/core/usbcore.ko drivers/usb/core/usbcore.o drivers/usb/core/usbcore.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/usb/host/ehci-omap.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/host/ehci-omap.ko drivers/usb/host/ehci-omap.o drivers/usb/host/ehci-omap.mod.o ;  true

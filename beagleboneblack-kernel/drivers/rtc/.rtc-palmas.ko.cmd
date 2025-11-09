@@ -1,1 +1,0 @@
-cmd_drivers/rtc/rtc-palmas.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/rtc/rtc-palmas.ko drivers/rtc/rtc-palmas.o drivers/rtc/rtc-palmas.mod.o ;  true

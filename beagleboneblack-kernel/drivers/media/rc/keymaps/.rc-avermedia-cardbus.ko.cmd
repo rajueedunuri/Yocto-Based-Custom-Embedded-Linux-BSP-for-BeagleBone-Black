@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/keymaps/rc-avermedia-cardbus.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-avermedia-cardbus.ko drivers/media/rc/keymaps/rc-avermedia-cardbus.o drivers/media/rc/keymaps/rc-avermedia-cardbus.mod.o ;  true

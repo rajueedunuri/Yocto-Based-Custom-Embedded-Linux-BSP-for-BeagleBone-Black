@@ -1,1 +1,0 @@
-cmd_drivers/rpmsg-kdrv/rpmsg_kdrv_switch.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/rpmsg-kdrv/rpmsg_kdrv_switch.ko drivers/rpmsg-kdrv/rpmsg_kdrv_switch.o drivers/rpmsg-kdrv/rpmsg_kdrv_switch.mod.o ;  true

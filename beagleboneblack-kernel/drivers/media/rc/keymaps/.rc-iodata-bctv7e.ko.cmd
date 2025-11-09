@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/keymaps/rc-iodata-bctv7e.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/keymaps/rc-iodata-bctv7e.ko drivers/media/rc/keymaps/rc-iodata-bctv7e.o drivers/media/rc/keymaps/rc-iodata-bctv7e.mod.o ;  true

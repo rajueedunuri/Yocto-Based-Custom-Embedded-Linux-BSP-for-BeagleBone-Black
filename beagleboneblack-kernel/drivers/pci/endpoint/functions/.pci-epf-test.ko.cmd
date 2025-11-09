@@ -1,1 +1,0 @@
-cmd_drivers/pci/endpoint/functions/pci-epf-test.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/pci/endpoint/functions/pci-epf-test.ko drivers/pci/endpoint/functions/pci-epf-test.o drivers/pci/endpoint/functions/pci-epf-test.mod.o ;  true
